@@ -51,7 +51,7 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: "Lên Locket Gold rồi đó, có bạn bè giới thiệu qua cho mình lên locket gold nha 😎",
+            title: "Lên Locket Gold rồi đó, -45k😎",
             feature_set: [{
                 title: "Nhớ follow kênh tiktok @ph.baolong14 ✨",
                 body: "Một follow của bạn, một niềm vui của mình 💛",
