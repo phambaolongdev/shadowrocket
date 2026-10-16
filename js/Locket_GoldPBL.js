@@ -51,11 +51,11 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: "Lên Locket Gold rồi đó, -45k😎",
+            title: "Cảm ơn đã ủng hộ PBL💛",
             feature_set: [{
                 title: "Nhớ follow kênh tiktok @ph.baolong14 ✨",
                 body: "Một follow của bạn, một niềm vui của mình 💛",
-                imageURL: "https://files.catbox.moe/g2dxbb.png"
+                imageURL: "https://i.ibb.co/chwk7gM1/avate-nh.png"
             }],
             primary_button_title: "Xong",
             campaign: "locket_gold_welcome_v3",
