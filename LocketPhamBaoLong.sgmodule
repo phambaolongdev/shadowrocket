@@ -32,8 +32,8 @@ locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googlea
 
 #RevenueCatVip
 #hostname = api.revenuecat.com
-RevenueCatVip = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/revenuecat.js, requires-body=true, max-size=-1, timeout=60
-#RevenueCatDeleteHeader = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/deleteHeader.js, timeout=60
+RevenueCatVip = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/phambaolng/shadowrocket/refs/heads/main/js/revenuecat.js, requires-body=true, max-size=-1, timeout=60
+#RevenueCatDeleteHeader = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/phambaolng/shadowrocket/refs/heads/main/js/deleteHeader.js, timeout=60
 #************************************#
 
 #iTunes
