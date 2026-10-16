@@ -1,12 +1,7 @@
 #!name=Locket 30s
 #!desc=Được tổng hợp bởi Phạm Bảo Long
 #!author=pbl
-#!homepage=https://module-ios.netlify.app
-#!tgchannel=https://t.me/tienich
-#!moduleUrl=https://raw.githubusercontent.com/phambaolng/shadowrocket/refs/heads/main/LocketPhamBaoLong.sgmodule
-#!icon=https://module-ios.netlify.app/assets/img/shadowrocket.webp
-#!howtouse=Shadowrocket
-#Shadowrocket Configuration 
+#!moduleUrl=https://raw.githubusercontent.com/phambaolongdev/shadowrocket/refs/heads/main/LocketPhamBaoLongVip.sgmodule 
 
 [Script]
 
