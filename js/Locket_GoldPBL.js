@@ -48,13 +48,13 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD",
+            tag: "LOCKET GOLD PBL",
             tag_gradient: true,
             tag_style: "gold_gradient",
             title: "Cảm ơn đã ủng hộ PBL💛",
             feature_set: [{
-                title: "Nhớ giới thiệu bạn bè ủng hộ mình nha ✨",
-                body: "Một follow của bạn, một niềm vui của mình 💛",
+                title: "Nếu có thể hãy giới thiệu bạn bè ủng hộ mình nha ✨",
+                body: "Sự tin tưởng của bạn là cả niềm vui đối với mình 💛",
                 imageURL: "https://i.ibb.co/KxC1R99b/thankyou.png"
             }],
             primary_button_title: "Xong",
