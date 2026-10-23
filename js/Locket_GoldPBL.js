@@ -203,6 +203,9 @@ if (ua.includes("Locket")) {
         trim_max_duration: "60.0",
         gold_max_duration: "60.0",
         goldMaxDuration: "60.0",
+        max_file_size: 104857600,       // Cho phép file tối đa 100MB từ thư viện
+        max_upload_bytes: 104857600,   // Nới lỏng giới hạn dung lượng tải lên
+        max_size_bytes: 104857600,
         video_quality_mbps: "0.9",
         video_sound_enabled: "true",
         microphone_enabled: "true",
@@ -376,8 +379,9 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
-            // url: "https://i.ibb.co/1Yt1Dzzy/Shin-chan-1.png",
-            url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
+            // url shin: "https://i.ibb.co/1Yt1Dzzy/Shin-chan-1.png",
+             // url kitty: https://i.ibb.co/RTm5P1n9/kitty-1.png
+            url: "https://i.ibb.co/274WyrYX/Khung-Locket-Gold-pbl.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2009-06-09T00:00:00",
