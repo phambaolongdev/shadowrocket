@@ -1,8 +1,7 @@
 // ============================================================
 // Locket Remote Config Rewrite
-// Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// Tác giả: @phambaolong
+// cre dinhduyvinh09
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
@@ -69,8 +68,8 @@ if (ua.includes("Locket")) {
         android_subscribe_gold_button_enabled: "false",
         profile_badge_visible: "true",
         lunar_new_year_app_icon_enabled: "true",
-        settings_instagram_url: "https://www.instagram.com/phambaolng",
-        settings_tiktok_url: "https://tiktok.com/@ph.baolong14"
+        settings_instagram_url: "he he",
+        settings_tiktok_url: "hi hi"
     });
 
     // ============================================================
@@ -97,7 +96,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
-    var MY_VIDEO_DURATION = 60.0;
+    var MY_VIDEO_DURATION = 45.0;
     
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
@@ -185,7 +184,7 @@ if (ua.includes("Locket")) {
         goldMaxDuration: durationStr,
         max_file_size: "104857600",
         max_upload_bytes: "104857600",
-        video_quality_mbps: "0.",
+        video_quality_mbps: "0.6",
         video_sound_enabled: "true",
         microphone_enabled: "true",
         camera_microphone_enabled: "true",
@@ -309,7 +308,7 @@ if (ua.includes("Locket")) {
             use_local_time_zone: true,
             placement: "below",
             start_at: "2009-06-09T00:00:00",
-            end_at: "2999-12-31T23:59:59"
+            end_at: "2099-12-31T23:59:59"
         }),
         live_activity_onboarding: "true",
         live_activity_onboarding_variant: "friending",
@@ -546,9 +545,90 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
+                section: "🎨 Decorative by Locket",
+                items: [
+                    {
+                        overlay_id: "caption:party_time",
+                        source: "remote",
+                        caption: {
+                            background: { colors: ["#5EFFF5", "#FCFF57"] },
+                            icon: { data: "🪩", type: "emoji" },
+                            max_lines: 1,
+                            text: "Party Time!",
+                            text_color: "#000000E6",
+                            type: "static_content"
+                        }
+                    },
+                    {
+                        overlay_id: "caption:good_morning",
+                        source: "remote",
+                        daily_start_hour: 5,
+                        daily_end_hour: 10,
+                        caption: {
+                            background: { colors: ["#EF7402", "#EABF0F"] },
+                            icon: { data: "☀️", type: "emoji" },
+                            max_lines: 1,
+                            text: "Good morning",
+                            text_color: "#FFFFFFE5",
+                            type: "static_content"
+                        }
+                    },
+                    {
+                        overlay_id: "caption:goodnight",
+                        source: "remote",
+                        daily_start_hour: 19.5,
+                        daily_end_hour: 24,
+                        caption: {
+                            background: { colors: ["#370C6F", "#575CD4"] },
+                            icon: { data: "🌙", type: "emoji" },
+                            max_lines: 1,
+                            text: "Goodnight",
+                            text_color: "#FFFFFFE6",
+                            type: "static_content"
+                        }
+                    },
+                    {
+                        overlay_id: "caption:ootd",
+                        source: "remote",
+                        caption: {
+                            background: { colors: ["#FFFFFF", "#DBDBDB"] },
+                            icon: { data: "🕶", type: "emoji" },
+                            max_lines: 1,
+                            text: "OOTD",
+                            text_color: "#101010E6",
+                            type: "static_content"
+                        }
+                    },
+                    {
+                        overlay_id: "caption:miss_you",
+                        source: "remote",
+                        caption: {
+                            background: { colors: ["#EC0C00", "#FF493F"] },
+                            icon: { data: "🥰", type: "emoji" },
+                            max_lines: 1,
+                            text: "Miss you",
+                            text_color: "#FFFFFFDB",
+                            type: "static_content"
+                        }
+                    }
+                ]
+            },
+            {
                 section: "🎨 Decorative by Phạm Bảo Long",
-                items: [{
-                        overlay_id: "caption:phambaolong",
+                items: [
+                    {
+                        overlay_id: "caption:pbl",
+                        source: "remote",
+                        caption: {
+                            background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
+                            max_lines: 1,
+                            text: "Gold by PhamBaoLong",
+                            text_color: "#183153",
+                            type: "static_content"
+                        }
+                    },
+                    {
+                    overlay_id: "caption:phambaolong",
                         source: "remote",
                         caption: {
                             background: {
@@ -630,87 +710,6 @@ if (ua.includes("Locket")) {
                     }
                 ]
             },
-            {
-                    {
-                        overlay_id: "caption:party_time",
-                        source: "remote",
-                        caption: {
-                            background: { colors: ["#5EFFF5", "#FCFF57"] },
-                            icon: { data: "🪩", type: "emoji" },
-                            max_lines: 1,
-                            text: "Party Time!",
-                            text_color: "#000000E6",
-                            type: "static_content"
-                        }
-                    },
-                    {
-                        overlay_id: "caption:good_morning",
-                        source: "remote",
-                        daily_start_hour: 5,
-                        daily_end_hour: 10,
-                        caption: {
-                            background: { colors: ["#EF7402", "#EABF0F"] },
-                            icon: { data: "☀️", type: "emoji" },
-                            max_lines: 1,
-                            text: "Good morning",
-                            text_color: "#FFFFFFE5",
-                            type: "static_content"
-                        }
-                    },
-                    {
-                        overlay_id: "caption:goodnight",
-                        source: "remote",
-                        daily_start_hour: 19.5,
-                        daily_end_hour: 24,
-                        caption: {
-                            background: { colors: ["#370C6F", "#575CD4"] },
-                            icon: { data: "🌙", type: "emoji" },
-                            max_lines: 1,
-                            text: "Goodnight",
-                            text_color: "#FFFFFFE6",
-                            type: "static_content"
-                        }
-                    },
-                    {
-                        overlay_id: "caption:ootd",
-                        source: "remote",
-                        caption: {
-                            background: { colors: ["#FFFFFF", "#DBDBDB"] },
-                            icon: { data: "🕶", type: "emoji" },
-                            max_lines: 1,
-                            text: "OOTD",
-                            text_color: "#101010E6",
-                            type: "static_content"
-                        }
-                    },
-                    {
-                        overlay_id: "caption:miss_you",
-                        source: "remote",
-                        caption: {
-                            background: { colors: ["#EC0C00", "#FF493F"] },
-                            icon: { data: "🥰", type: "emoji" },
-                            max_lines: 1,
-                            text: "Miss you",
-                            text_color: "#FFFFFFDB",
-                            type: "static_content"
-                        }
-                    }
-                ]
-            },
-            {
-                section: "🎨🎨🎨🎨🎨🎨",
-                items: [
-                    {
-                        overlay_id: "caption:nca",
-                        source: "remote",
-                        caption: {
-                            background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] },
-                            max_lines: 1,
-                            text: "nguyencongan",
-                            text_color: "#183153",
-                            type: "static_content"
-                        }
-                    },
                     {
                         overlay_id: "caption:feeling_cute",
                         source: "remote",
