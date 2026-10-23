@@ -1,7 +1,7 @@
 // ============================================================
 // Locket Remote Config Rewrite
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// cre dinhduyvinh09
+// cre pbl
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
