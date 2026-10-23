@@ -108,12 +108,15 @@ if (ua.includes("Locket")) {
             telephoto: true,
             srgb: true,
             lanczos: true,
+            max_file_size: 104857600,       // Cho phép file tối đa 100MB từ thư viện
+            max_upload_bytes: 104857600,   // Nới lỏng giới hạn dung lượng tải lên
+            max_size_bytes: 104857600,
             quality_mbps: 0.9,
             qualityMbps: 0.9
         }),
         camera_roll: JSON.stringify({
-            gold_max_duration: 30.0,
-            goldMaxDuration: 30.0,
+            gold_max_duration: 60.0,
+            goldMaxDuration: 60.0,
             video_max_duration: 60.0,
             videoMaxDuration: 60.0,
             max_duration: 60.0,
@@ -121,6 +124,9 @@ if (ua.includes("Locket")) {
             trim_max_duration: 60.0,
             trimMaxDuration: 60.0,
             camera_roll_max_duration: 60.0,
+            max_file_size: 104857600,       // Cho phép file tối đa 100MB từ thư viện
+            max_upload_bytes: 104857600,   // Nới lỏng giới hạn dung lượng tải lên
+            max_size_bytes: 104857600,
             quality_mbps: 0.9,
             qualityMbps: 0.9,
             flash_button: true
